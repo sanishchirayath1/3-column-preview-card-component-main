@@ -64,6 +64,9 @@ a.button {
   mix-blend-mode: screen;
   margin-top: auto;
 }
+.sedans a {
+  color: hsl(31, 77%, 52%);
+}
 .suvs a {
   color: hsl(184, 100%, 22%);
 }
@@ -83,6 +86,9 @@ a:hover {
 @media (min-width: 800px) {
   body {
     height: 100vh;
+  }
+  p {
+    margin-bottom: 4rem;
   }
   .container {
     max-width: 900px;
