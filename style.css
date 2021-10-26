@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  background-color: hsl(0, 0%, 95%);
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Big Shoulders Display", cursive;
   box-sizing: border-box;
