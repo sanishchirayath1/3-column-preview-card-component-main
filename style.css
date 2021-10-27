@@ -5,7 +5,9 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Big Shoulders Display", cursive;
   box-sizing: border-box;
+  font-size: 100%;
 }
+
 h1,
 h2,
 p {
@@ -20,7 +22,7 @@ p {
 }
 body {
   display: flex;
-  padding: 4rem;
+  padding: 2rem;
   justify-content: center;
   align-items: center;
 }
@@ -62,7 +64,6 @@ a.button {
   background: hsl(0, 0%, 95%);
   padding: 0.75rem 1.5rem;
   border-radius: 3rem;
-  mix-blend-mode: screen;
   margin-top: auto;
 }
 .sedans a {
@@ -91,7 +92,7 @@ a:hover {
   p {
     margin-bottom: 4rem;
   }
-  .container {
+  main {
     max-width: 900px;
     display: grid;
     grid-template-areas: "sedans suvs luxury";
