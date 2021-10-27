@@ -35,6 +35,16 @@ h2 {
   font-size: 2rem;
   color: hsl(0, 0%, 95%);
 }
+.sr-only {
+  position: absolute;
+  top: 0;
+  color: transparent;
+  height: 1 px;
+  width: 1 px;
+  overflow: hidden;
+  clip: rect(1 px, 1 px, 1 px, 1 px);
+  white-space: nowrap;
+}
 .sedans {
   background-color: hsl(31, 77%, 52%);
   border-radius: 0.5rem 0.5rem 0 0;
